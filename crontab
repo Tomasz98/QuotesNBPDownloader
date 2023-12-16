@@ -1,0 +1,2 @@
+0 12 * * * cd /app && python main.py --currency "*" --days 90 >> /var/log/cron.log 2>&1
+
